@@ -7,11 +7,10 @@
 #include <QCommandLineOption>
 #include <QCommandLineParser>
 #include <QThread>
-#include <connection_thread.h>
-#include <registry.h>
-#include <dpms.h>
-#include <output.h>
-#include <iostream>
+#include <DWayland/Client/connection_thread.h>
+#include <DWayland/Client/registry.h>
+#include <DWayland/Client/dpms.h>
+#include <DWayland/Client/output.h>
 #include <QString>
 #include <QTimer>
 #include <QTime>
